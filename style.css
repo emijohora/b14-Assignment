@@ -34,7 +34,7 @@
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url("./assets/banner.jpg");
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0, 0, 0, 0.5)),url("./assets/banner.jpg");
     height:650px;
     width: 100%;
     background-size:cover;
@@ -82,7 +82,7 @@ header{
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -104,7 +104,7 @@ header{
 
 .speaker-card {
     background: #fff;
-    border-radius: 15px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -125,12 +125,12 @@ header{
 .p1 {
     color: dodgerblue;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 200;
     margin-bottom: 10px;
 }
 
 .Information h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
     color: #000;
 }
