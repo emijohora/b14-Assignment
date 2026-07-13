@@ -34,45 +34,44 @@
 }
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./assets/banner.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-    
-
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url("./assets/banner.jpg");
+    height:650px;
+    width: 100%;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
+
 .banner{
     color:white;
-    display: grid;
-    gap: 10px;
+    text-align:center;
+    padding-top:120px;
 }
-.banner h1{
-    padding-top: 80px;
-    text-align: center;
-    font-size: 48px;
+
+.banner-h h1{
+    font-size:48px;
 }
-.banner p{
-    text-align: center;
-    font-size: 12px;
-    height: 230px;
-    padding : 10px;
-    
+
+.banner-p{
+    margin:20px 0 40px;
+    font-size:14px;
 }
+
+.banner-btn-container{
+    text-align:center;
+    padding-top: 250px;
+}
+
 .banner-button{
-    width: 15%;
-    margin-left: 43%;
-    background-color:#1D4ED8;
+    background:#1D4ED8;
     border:none;
-    border-radius: 8px;
-    padding: 10px;
-    
-    
+    border-radius:8px;
+    padding:12px 30px;
 }
+
 .banner-button a{
-    text-decoration: none;
-    color:aliceblue;   
+    color:white;
+    text-decoration:none;
 }
 
 .About {
