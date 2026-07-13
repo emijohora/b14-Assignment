@@ -316,3 +316,21 @@ header{
 .countdown-btn:hover{
     background:#133593;
 }
+.footer-content{
+    background-color: #0D1B2A;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    gap: 20px;
+    color:gray;
+    font-size: 12px;
+}
+.footer-content ul{
+    display: flex;
+    gap: 20px;
+    
+}
+.footer-content li{
+    list-style: none;
+    justify-content: space-between;
+}
