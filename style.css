@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Inter" ,sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 8%;
+    align-items: center;
+    
+}
+.navbar-container{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.navbar-container a{
+    color:gray;
+    text-decoration: none;   
+}
+.navbar-button{
+    background-color:#2563eb;
+    border-radius: 8px;
+    border:none;
+    height: 30px;
+    width: 120px;
+}
+.navbar-button a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./assets/banner.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+.banner{
+    color:white;
+    display: grid;
+    gap: 10px;
+}
+.banner h1{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 48px;
+}
+.banner p{
+    text-align: center;
+    font-size: 12px;
+    height: 230px;
+    padding : 10px;
+    
+}
+.banner-button{
+    width: 15%;
+    margin-left: 43%;
+    background-color:#1D4ED8;
+    border:none;
+    border-radius: 8px;
+    padding: 10px;
+    
+    
+}
+.banner-button a{
+    text-decoration: none;
+    color:aliceblue;   
+}
+
